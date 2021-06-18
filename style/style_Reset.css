@@ -59,6 +59,10 @@ header#header {
 }
 */
 
+main#main {
+    border: 1px solid #0f0;
+}
+
 div#slide {
     border: 1px solid #000;
 }

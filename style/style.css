@@ -56,6 +56,90 @@ li.mainLi:not(:last-child) a {
 /* header#header */
 
 
+/* main#main */
+main#main {
+    width: 800px;
+}
+/* main#main */
+
+
+/* div#slide */
+
+div#slide {
+    position: relative;
+}
+div#slide span {
+    width: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* div#slide */
+
+
+
+/* div#contents */
+div#contents {
+    justify-content: space-around;
+}
+
+#contents>div {
+    padding: 6px;
+    border: 1px solid #08f;
+}
+
+#contents>div#notice {
+    width: 300px;
+}
+#contents>div#gallery {
+    width: 300px;
+}
+#contents>div#shortcut {
+    width: 190px;
+}
+
+#contents button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px 14px;
+    border: 1px solid #aaa;
+    border-bottom-color: #eee;
+    margin-left: 20px;
+
+    position: relative;
+    top: 1px;
+}
+#contents div.tabContents {
+    padding: 10px 0;
+    border: 1px solid #aaa;
+}
+
+#contents td {
+    font-size: 15px;
+}
+#contents div#notice td {
+    line-height: 29px;
+}
+#contents div#notice td:first-child {
+    padding-right: 16px;
+}
+#contents div#gallery table {
+    margin: 0 auto;
+}
+#contents div#shortcut {
+    padding-top: 17px;
+}
+/* div#contents */
+
+
 
 
 
