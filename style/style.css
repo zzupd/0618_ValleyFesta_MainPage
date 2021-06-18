@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+
+/* div#wrap */
+div#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* div#wrap */
+
+
+/* header#header */
+header#header {
+    width: 200px;
+}
+
+#header>div#headerLogo {
+    text-align: center;
+    padding: 20px 0;
+}
+/*
+nav#gnb {
+    border: 1px solid #000;
+}*/
+
+ul#mainMenu {
+    text-align: center;
+    /*border: 1px solid #f00;*/
+}
+/*
+
+li.mainLi {
+    border: 1px solid #08f;
+}
+
+*/
+
+nav#gnb a {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    border: 1px solid #000;
+
+    background-color: #d8eaf4;
+    display: inline-block;
+}
+
+li.mainLi:not(:last-child) a {
+    border-bottom: none;
+}
+
+
+/* header#header */
+
+
+
+
+
+
+
+
